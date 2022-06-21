@@ -1,4 +1,4 @@
-package ge.technoboom.Utils;
+package Utils;
 
 import io.qameta.allure.Attachment;
 import org.openqa.selenium.OutputType;
@@ -40,3 +40,4 @@ public class TestLister implements ITestListener {
     @Override
     public void onFinish(ITestContext context) {}
 }
+
